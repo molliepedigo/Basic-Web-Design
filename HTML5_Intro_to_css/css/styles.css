@@ -25,6 +25,10 @@ nav ul {
     list-style-type: none;
 }
 
+nav li {
+    display: inline-block;
+}
+
 h1,h2,h3,footer{
 text-align: center;
 

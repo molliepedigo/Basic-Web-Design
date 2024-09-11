@@ -4,10 +4,33 @@ body{
 
 #container{
     background-color: white;
-    width: 1200px;
+    width: 65%;
     margin: 20px auto;
     border: 2px solid white;
     padding: 20px;
+}
+#banner{
+    width: 50%;
+   
+    
+}
+#col1{
+    width: 50%;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+#col2{
+    width: 50%;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+.heading_style{
+    text-shadow: 2px 1px 2px #000;
+}
+.show_post{
+    width: 50%;
 }
 
 img{
@@ -19,17 +42,38 @@ img{
 nav{
     text-align: center;
     margin: 20px 0;
+    background-color: lightblue;
+    border-radius: 10px;
 }
 
-nav a{
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+nav li a {
+    display: block;
+    color: white;
     font-size: 24px;
-   color: black;
-   margin: 0 20px;
-   font-weight: bold;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 20px;
+    width: 125px;
+    height: 40px;
+    line-height: 40px;
+
+
 }
 
-nav a:hover {
-    text-decoration: none;
+nav a:hover{
+    background-color: white;
+    color: black;
+}
+#two_col{
+    display: flex;
 }
 
 h1,h2,h3,footer{
