@@ -6,8 +6,6 @@
 <li><a href="responsive/index.html"> target="_blank">responsive</a></li>
 <li><a href="Final/index.html"> target="_blank">Final</a></li>
 
-
-
 <ul>
 
 
